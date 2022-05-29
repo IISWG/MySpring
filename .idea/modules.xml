@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/muxin-spring.iml" filepath="$PROJECT_DIR$/.idea/muxin-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muxin-spring-test1/muxin-spring-test1.iml" filepath="$PROJECT_DIR$/muxin-spring-test1/muxin-spring-test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muxin-spring-test2/muxin-spring-test2.iml" filepath="$PROJECT_DIR$/muxin-spring-test2/muxin-spring-test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muxin-spring-test3/muxin-spring-test3.iml" filepath="$PROJECT_DIR$/muxin-spring-test3/muxin-spring-test3.iml" />
+    </modules>
+  </component>
+</project>
