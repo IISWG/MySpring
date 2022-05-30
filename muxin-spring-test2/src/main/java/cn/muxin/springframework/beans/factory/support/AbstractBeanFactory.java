@@ -18,7 +18,8 @@ import cn.muxin.springframework.beans.factory.config.BeanDefinition;
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
 
     /**
-     * 实现BeanFactory接口方法
+     * 实现BeanFactory接口方法,生成核心的抽象的Bean工厂类，继承DefaultSingletonBeanRegistry，
+     * 使其拥有注册单例Bean的能力
      * @param name
      * @return
      * @throws BeansException

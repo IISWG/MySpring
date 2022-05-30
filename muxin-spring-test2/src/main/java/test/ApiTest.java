@@ -3,7 +3,6 @@ package test;
 
 import cn.muxin.springframework.beans.factory.config.BeanDefinition;
 import cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory;
-//import org.junit.Test;
 import org.junit.jupiter.api.Test;
 import test.bean.UserService;
 
