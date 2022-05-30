@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="muxin-spring-test1" />
+        <module name="muxin-spring-test4" />
         <module name="muxin-spring-test3" />
         <module name="muxin-spring-test2" />
+        <module name="muxin-spring-test1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="muxin-spring-test1" target="1.8" />
       <module name="muxin-spring-test2" target="1.8" />
       <module name="muxin-spring-test3" target="1.8" />
+      <module name="muxin-spring-test4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
