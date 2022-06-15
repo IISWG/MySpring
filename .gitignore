@@ -3,7 +3,7 @@
 
 # Log file
 *.log
-
+一个
 # BlueJ files
 *.ctxt
 
@@ -23,5 +23,5 @@
 hs_err_pid*
 
 #idea
-.idea
+/.idea/
 *.iml
