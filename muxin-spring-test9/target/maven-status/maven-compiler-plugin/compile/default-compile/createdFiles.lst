@@ -1,0 +1,11 @@
+cn\muxin\springframework\beans\factory\support\CglibSubclassingInstantiationStrategy$1.class
+cn\muxin\springframework\beans\factory\BeanFactoryAware.class
+cn\muxin\springframework\context\support\ApplicationContextAwareProcessor.class
+cn\muxin\springframework\context\ApplicationContextAware.class
+cn\muxin\springframework\beans\factory\BeanClassLoaderAware.class
+cn\muxin\springframework\beans\factory\FactoryBean.class
+cn\muxin\springframework\beans\factory\support\FactoryBeanRegistrySupport.class
+cn\muxin\springframework\beans\factory\BeanNameAware.class
+test\bean\IUserDao.class
+test\bean\ProxyBeanFactory.class
+cn\muxin\springframework\beans\factory\Aware.class
