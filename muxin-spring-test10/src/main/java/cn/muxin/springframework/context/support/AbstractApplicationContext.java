@@ -109,6 +109,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
 //        getBeanFactory().destroySingletons();
 //    }
 
+
     @Override
     public void close() {
         // 发布容器关闭事件
