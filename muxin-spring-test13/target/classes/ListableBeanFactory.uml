@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.muxin.springframework.beans.factory.ListableBeanFactory</OriginalElement>
+  <nodes>
+    <node x="202.25" y="1241.5">cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="1135.0255847953217" y="856.5">cn.muxin.springframework.context.ConfigurableApplicationContext</node>
+    <node x="184.23391812865498" y="752.0">cn.muxin.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+    <node x="587.0" y="234.0">cn.muxin.springframework.beans.factory.config.ConfigurableBeanFactory</node>
+    <node x="1180.5255847953217" y="541.0">cn.muxin.springframework.context.ApplicationContext</node>
+    <node x="968.5" y="257.0">cn.muxin.springframework.beans.factory.ListableBeanFactory</node>
+    <node x="672.4393274853801" y="856.5">cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory</node>
+    <node x="653.625" y="1998.0">cn.muxin.springframework.context.support.ClassPathXmlApplicationContext</node>
+    <node x="373.12500000000006" y="1842.0">cn.muxin.springframework.context.support.AbstractXmlApplicationContext</node>
+    <node x="667.4576023391813" y="0.0">cn.muxin.springframework.beans.factory.BeanFactory</node>
+    <node x="361.00000000000006" y="516.5">cn.muxin.springframework.beans.factory.config.AutowireCapableBeanFactory</node>
+    <node x="923.7755847953216" y="1115.0">cn.muxin.springframework.context.support.AbstractApplicationContext</node>
+    <node x="0.0" y="412.0">cn.muxin.springframework.beans.factory.support.AbstractBeanFactory</node>
+    <node x="467.87500000000006" y="1640.0">cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext</node>
+    <node x="747.4576023391813" y="152.0">cn.muxin.springframework.beans.factory.HierarchicalBeanFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" relationship="REALIZATION">
+      <point x="113.0" y="-110.0" />
+      <point x="484.75" y="1094.0" />
+      <point x="753.1893274853801" y="1094.0" />
+      <point x="-80.75" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext" target="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" relationship="TO_ONE">
+      <point x="-44.75" y="-75.0" />
+      <point x="602.125" y="1609.0" />
+      <point x="456.5" y="1609.0" />
+      <point x="84.75" y="110.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.HierarchicalBeanFactory" target="cn.muxin.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="857.4576023391813" y="127.0" />
+      <point x="771.4576023391813" y="127.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractXmlApplicationContext" target="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" relationship="DEPENDENCY">
+      <point x="-89.5" y="-52.0" />
+      <point x="462.62500000000006" y="1816.0" />
+      <point x="366.75000000000006" y="1816.0" />
+      <point x="366.75000000000006" y="1609.0" />
+      <point x="287.0" y="1609.0" />
+      <point x="-84.75" y="110.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractApplicationContext" target="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" relationship="DEPENDENCY">
+      <point x="-116.75" y="-236.5" />
+      <point x="1040.5255847953217" y="1094.0" />
+      <point x="834.25" y="1094.0" />
+      <point x="834.25" y="1084.0" />
+      <point x="914.6893274853801" y="1084.0" />
+      <point x="80.75" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.ConfigurableApplicationContext" target="cn.muxin.springframework.context.ApplicationContext" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.ClassPathXmlApplicationContext" target="cn.muxin.springframework.context.support.AbstractApplicationContext" relationship="DEPENDENCY">
+      <point x="73.0" y="-63.0" />
+      <point x="872.625" y="1972.0" />
+      <point x="1131.4137426900584" y="1972.0" />
+      <point x="1131.4137426900584" y="1619.0" />
+      <point x="1274.0255847953217" y="1619.0" />
+      <point x="116.75" y="236.5" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.muxin.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-110.0" />
+      <point x="371.75" y="1094.0" />
+      <point x="412.233918128655" y="1094.0" />
+      <point x="0.0" y="155.5" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext" target="cn.muxin.springframework.context.support.AbstractApplicationContext" relationship="GENERALIZATION">
+      <point x="134.25" y="-75.0" />
+      <point x="781.125" y="1619.0" />
+      <point x="1040.5255847953217" y="1619.0" />
+      <point x="-116.75" y="236.5" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractXmlApplicationContext" target="cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext" relationship="GENERALIZATION">
+      <point x="89.5" y="-52.0" />
+      <point x="641.625" y="1816.0" />
+      <point x="646.875" y="1816.0" />
+      <point x="0.0" y="75.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.support.AbstractBeanFactory" target="cn.muxin.springframework.beans.factory.config.ConfigurableBeanFactory" relationship="REALIZATION">
+      <point x="0.0" y="-144.0" />
+      <point x="170.5" y="386.0" />
+      <point x="667.75" y="386.0" />
+      <point x="-80.75" y="63.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractApplicationContext" target="cn.muxin.springframework.context.ConfigurableApplicationContext" relationship="REALIZATION">
+      <point x="116.75" y="-236.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.muxin.springframework.beans.factory.ListableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="107.66666666666663" y="-51.0" />
+      <point x="941.6059941520467" y="726.0" />
+      <point x="1118.5" y="726.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.config.ConfigurableBeanFactory" target="cn.muxin.springframework.beans.factory.HierarchicalBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-63.0" />
+      <point x="748.5" y="213.0" />
+      <point x="857.4576023391813" y="213.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.muxin.springframework.beans.factory.config.AutowireCapableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="-107.66666666666663" y="-51.0" />
+      <point x="726.2726608187135" y="726.0" />
+      <point x="684.25" y="726.0" />
+      <point x="107.75" y="39.5" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext" target="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" relationship="CREATE">
+      <point x="-134.25" y="-75.0" />
+      <point x="512.625" y="1619.0" />
+      <point x="366.75000000000006" y="1619.0" />
+      <point x="366.75000000000006" y="1609.0" />
+      <point x="287.0" y="1609.0" />
+      <point x="-84.75" y="110.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.ApplicationContext" target="cn.muxin.springframework.beans.factory.ListableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="-46.75" y="-15.0" />
+      <point x="1227.2755847953217" y="386.0" />
+      <point x="1118.5" y="386.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.AbstractRefreshableApplicationContext" target="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" relationship="DEPENDENCY">
+      <point x="44.75" y="-75.0" />
+      <point x="691.625" y="1609.0" />
+      <point x="834.25" y="1609.0" />
+      <point x="834.25" y="1084.0" />
+      <point x="914.6893274853801" y="1084.0" />
+      <point x="80.75" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.ConfigurableListableBeanFactory" target="cn.muxin.springframework.beans.factory.config.ConfigurableBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="833.9393274853801" y="726.0" />
+      <point x="829.25" y="726.0" />
+      <point x="80.75" y="63.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.ApplicationContext" target="cn.muxin.springframework.beans.factory.HierarchicalBeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="46.75" y="-15.0" />
+      <point x="1320.7755847953217" y="213.0" />
+      <point x="857.4576023391813" y="213.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.support.DefaultListableBeanFactory" target="cn.muxin.springframework.beans.factory.support.AbstractBeanFactory" relationship="DEPENDENCY">
+      <point x="-113.0" y="-110.0" />
+      <point x="258.75" y="1094.0" />
+      <point x="135.73391812865486" y="1094.0" />
+      <point x="135.73391812865486" y="726.0" />
+      <point x="85.25" y="726.0" />
+      <point x="-85.25" y="144.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.config.AutowireCapableBeanFactory" target="cn.muxin.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="576.5" y="127.0" />
+      <point x="771.4576023391813" y="127.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.ListableBeanFactory" target="cn.muxin.springframework.beans.factory.BeanFactory" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-40.0" />
+      <point x="1118.5" y="203.0" />
+      <point x="1188.9576023391814" y="203.0" />
+      <point x="1188.9576023391814" y="127.0" />
+      <point x="771.4576023391813" y="127.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.support.ClassPathXmlApplicationContext" target="cn.muxin.springframework.context.support.AbstractXmlApplicationContext" relationship="GENERALIZATION">
+      <point x="-73.0" y="-63.0" />
+      <point x="726.625" y="1972.0" />
+      <point x="552.125" y="1972.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="cn.muxin.springframework.beans.factory.config.AutowireCapableBeanFactory" relationship="REALIZATION">
+      <point x="114.0" y="-155.5" />
+      <point x="526.233918128655" y="726.0" />
+      <point x="468.75000000000006" y="726.0" />
+      <point x="-107.75" y="39.5" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="cn.muxin.springframework.beans.factory.support.AbstractBeanFactory" relationship="GENERALIZATION">
+      <point x="-114.0" y="-155.5" />
+      <point x="298.233918128655" y="726.0" />
+      <point x="255.75" y="726.0" />
+      <point x="85.25" y="144.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.20242537313432835" showDependencies="true" x="707.0" y="1062.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

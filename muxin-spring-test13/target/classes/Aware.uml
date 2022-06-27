@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.muxin.springframework.beans.factory.Aware</OriginalElement>
+  <nodes>
+    <node x="-533.0000000000002" y="192.5">cn.muxin.springframework.context.event.SimpleApplicationEventMulticaster</node>
+    <node x="-211.50000000000023" y="112.5">cn.muxin.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator</node>
+    <node x="-317.27272727272754" y="32.5">cn.muxin.springframework.beans.factory.BeanFactoryAware</node>
+    <node x="70.49999999999977" y="-47.5">cn.muxin.springframework.beans.factory.Aware</node>
+    <node x="-116.27272727272754" y="32.5">cn.muxin.springframework.context.ApplicationContextAware</node>
+    <node x="133.72727272727252" y="32.5">cn.muxin.springframework.beans.factory.BeanClassLoaderAware</node>
+    <node x="365.7272727272725" y="32.5">cn.muxin.springframework.beans.factory.BeanNameAware</node>
+    <node x="-537.5000000000002" y="112.5">cn.muxin.springframework.context.event.AbstractApplicationEventMulticaster</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.muxin.springframework.beans.factory.BeanClassLoaderAware" target="cn.muxin.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="239.72727272727252" y="7.5" />
+      <point x="117.99999999999977" y="7.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.BeanFactoryAware" target="cn.muxin.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-226.77272727272754" y="7.5" />
+      <point x="117.99999999999977" y="7.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.event.AbstractApplicationEventMulticaster" target="cn.muxin.springframework.beans.factory.BeanFactoryAware" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-384.5000000000002" y="87.5" />
+      <point x="-226.77272727272754" y="87.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.ApplicationContextAware" target="cn.muxin.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-1.2727272727275363" y="7.5" />
+      <point x="117.99999999999977" y="7.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" target="cn.muxin.springframework.beans.factory.BeanFactoryAware" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-71.50000000000023" y="87.5" />
+      <point x="-226.77272727272754" y="87.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.context.event.SimpleApplicationEventMulticaster" target="cn.muxin.springframework.context.event.AbstractApplicationEventMulticaster" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="cn.muxin.springframework.beans.factory.BeanNameAware" target="cn.muxin.springframework.beans.factory.Aware" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="451.7272727272725" y="7.5" />
+      <point x="117.99999999999977" y="7.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7" showDependencies="true" x="56.142857142857224" y="204.87662337662334" />
+  <SelectedNodes>
+    <node>cn.muxin.springframework.context.ApplicationContextAware</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
